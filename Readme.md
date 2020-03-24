@@ -1,4 +1,6 @@
-rtl8821cu driver v5.4.1_28754.20180921_COEX20180712-3232
+rtl8821cu
+( idVendor=0bda, idProduct=c811 )
+driver v5.4.1_28754.20180921_COEX20180712-3232
 
 origin : https://github.com/brektrou/rtl8821CU
 
