@@ -11,8 +11,10 @@ This driver must be built in "in-tree" mode.
 2. into file ".../drivers/net/wireless/realtek/Kconfig" insert line:
 
 source "/drivers/net/wireless/realtek/rtl8821cu/Kconfig"
+
 3. into file ".../drivers/net/wireless/realtek/Makefile" insert line:
 
 obj-$(CONFIG_RTL8821CU) += rtl8821cu/
+
 4. do : make menuconfig -> device drivers-> network device support -> wireless LAN -> select 8821cu
 5. do make.
